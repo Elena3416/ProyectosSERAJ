@@ -1,1 +1,1 @@
-# Esto es un ejemplo para subir el proyecto
+# Se realizarán practicas para aprender programacion web basica
