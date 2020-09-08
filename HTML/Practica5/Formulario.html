@@ -22,19 +22,15 @@
         <br/>
         <br/>
         <label for="Password">Password</label>
-        <input type="password" id="Password" minlength="8" maxlength="10">
+        <input type="password" id="Password" minlength="8" maxlength="10" required>
         <br/>
         <br/>
         <!--Min se utiliza para comparar numeros-->
         <label for="Numero">Teléfono</label>
-        <input type="number" id="Telefono" required min="0" max="10">
-        <br/>
-        <br/>
+        <input type="number" id="Telefono" required minlength="0" maxlength="10">
         <h4>Selecciona tu sexo</h4>
         <input type="radio" id="Masculino" value="1">Masculino
         <input type="radio" id="Femenino" value="2" checked>Femenino
-        <br/>
-        <br/>
         <h4>Selecciona los aparatos electrónicos que tienes en tu casa</h4>
         <input type="checkbox" id="1" value="TV">TV
         <br>
@@ -76,6 +72,25 @@
         <br/>
         <label for="Volumen">Volumen</label>
         <input type="range"/>
+        <br>
+        <br>
+        <label for="">Comentarios:</label>
+        <br>
+        <textarea id="Comentarios" cols="30" rows="10" required></textarea>
+        <br>
+        <label for="">Transporte</label>
+        <br>
+        <textarea id="Transporte" cols="12" rows="10">
+            carro
+            camion
+            avion
+            bicicleta
+            patineta
+            moto
+            helicoptero
+        </textarea>
+        <br>
+        <input type="submit" value="Enviar">
     </form>
 </body>
 </html>
