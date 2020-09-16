@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tablas2</title>
+</head>
+<body>
+    <h1>Tablas combinadas</h1>
+
+    <p>Vamos a aprender como combinar filas y columnas en una tabla</p>
+
+    <hr>
+<h4>Iluminancias Recomendadas</h4>
+    <table border="2px" width="100%" style="text-align: center"> 
+      <thead>
+      <!--rowspan se utiliza para filas-->
+
+      <!--colspan se utiliza para combinar filas-->
+        <tr>
+      <th rowspan="2"> Tareas y clases de local</th>
+      <th colspan="3">Iluminación Media (lux)</th>
+        <tr>
+          <th>Minimo</th>
+          <th>Recomendado</th>
+          <th>Óptimo</th>
+        </tr>
+        </tr>
+          </thead>
+        <tbody>
+          <tr>
+            <td colspan="4">Zona Generales de Edificios</td>
+          </tr>
+          <tr>
+            <td>Zonas de Circulación</td>
+            <td>50</td>
+            <td>100</td>
+            <td>150</td>
+          </tr>
+          <tr>
+            <td>Escaleras, Escaleras moviles, roperos, lvabos, almacenes y archivos</td>
+            <td>50</td>
+            <td>100</td>
+            <td>200</td>
+          </tr>
+          <tr>
+            <td colspan="4" >Centros docentes</td>
+          </tr>
+          <tr>
+            <td>Aulas, Laboratorios</td>
+            <td>300</td>
+            <td>400</td>
+            <td>500</td>
+          </tr>
+          <tr>
+            <td>Bibliotecas, Salas de estudio</td>
+            <td>300</td>
+            <td>500</td>
+            <td>750</td>
+          </tr>
+          <tr>
+            <td colspan="4" >Oficinas</td>
+          </tr>
+          <tr>
+            <td>Oficinas normales, mecanografiado, salas proceso de datos, salas de conferencia</td>
+            <td>450</td>
+            <td>500</td>
+            <td>750</td>
+          </tr>
+          <tr>
+            <td>Grandes Oficinas, Salas de delineación, CAD/CAM/CAE</td>
+            <td>500</td>
+            <td>750</td>
+            <td>1000</td>
+          </tr>
+          <tr>
+            <td colspan="4" > Comercios</td>
+          </tr>
+          <tr>
+            <td>Comercio Tradicional</td>
+            <td>300</td>
+            <td>500</td>
+            <td>750</td>
+          </tr>
+          <tr>
+            <td>Grandes superficiales, supermercados, salones de muestras</td>
+            <td>500</td>
+            <td>750</td>
+            <td>1000</td>
+          </tr>
+        </tbody>
+    </table>
+</body>
+</html>
