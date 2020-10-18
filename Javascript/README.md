@@ -1,0 +1,1 @@
+# Se realizarán prácticas de JavaScript

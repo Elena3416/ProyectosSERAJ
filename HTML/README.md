@@ -1,1 +1,1 @@
-# Se realizarán practicas para aprender programacion web basica
+# Se realizarán practicas de HTML
