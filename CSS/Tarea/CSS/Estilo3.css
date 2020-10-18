@@ -1,0 +1,20 @@
+body{
+    background: chocolate;
+    width: 50%;
+    height: 50%;
+    margin: 8% 26%;
+}
+
+h1{
+    text-transform: uppercase;
+}
+
+div > h2 {
+    text-transform: uppercase;
+}
+
+div > ul > li {
+    color: #ffffff;
+    font-size: 17px;
+    font-family: 'Courier New', Courier, monospace;
+}

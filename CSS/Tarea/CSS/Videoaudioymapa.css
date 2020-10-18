@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: rgb(28, 148, 142);
+}
+
+h1{
+    font-size: 25px;
+    color: rgb(219, 206, 18);
+    text-align: center;
+    margin: 1% 25%;
+}
+
+video{
+    width: 50%;
+    height: 50%;
+    margin-left: 25%;
+}
+
+.video > p{
+    font-size: 25px;
+    color: rgb(219, 206, 18);
+    text-align: center;
+    font-weight: 900;
+    margin: 1% 25%;
+}
+
+audio{
+    width: 50%;
+    margin: 1% 25%;
+}
+
+.audio > p{
+        font-size: 25px;
+        color: rgb(219, 206, 18);
+        text-align: center;
+        font-weight: 900;
+        margin: 1% 25%;
+}
+
+iframe{
+    margin-left: 25%;
+    width: 50%;
+    height: 70vh;
+}
+
+.mapa > p{
+    font-size: 25px;
+    color: rgb(219, 206, 18);
+    text-align: center;
+    font-weight: 900;
+    margin: 1% 25%;
+}

@@ -1,0 +1,72 @@
+body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100vh;
+}
+
+h1{
+    font-family: 'Courier New', Courier, monospace;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.slider{
+   width: 100%;
+   height: 100%;
+   margin: auto;
+   overflow: hidden; /*Se utiliza para ocultar elementos, por ejemplo se van a ocultar las tres imagenes*/
+}
+
+.slider > ul {
+    display: flex; /*Se utiliza para acomodar los elementos de manera horizontal*/
+    padding: 0;
+    width: 400%;
+    animation: carrousel 10s infinite alternate; /*Se utiliza para darle animacion a unas imagenes*/
+}
+
+.slider > ul > li{
+    width: 100%;
+    list-style: none; /*Se utiliza para quitarle un estilo a la viñeta*/
+}
+
+.slider > ul > li > img{
+    width: 100%;
+}
+
+@keyframes carrousel {
+    0%{
+        margin-left: 0%;
+    }
+
+    20%{
+       margin-left: 0%;  
+    }
+
+    25%{
+        margin-left: -100%;
+    }
+    
+    45%{
+        margin-left: -100%;
+    }
+
+    50%{
+        margin-left: -200%;
+    }
+
+    70%{
+        margin-left: -200%;
+    }
+
+    75%{
+        margin-left: -300%;
+    }
+
+    100%{
+        margin-left: -300%;
+    }
+}
+
+
+

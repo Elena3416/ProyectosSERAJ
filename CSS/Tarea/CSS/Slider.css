@@ -1,0 +1,118 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: #d5bceb;
+    width: 100%;
+    height: 100vh;
+}
+
+h1{
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.slider{
+    width: 100%;
+    height: 100vh;
+    margin: auto;
+    overflow: hidden;
+}
+
+.slider > ul {
+    display: flex;
+    padding: 0;
+    width: 1000%;
+    animation: carrousel 10s infinite alternate;
+}
+
+.slider > ul > li {
+    width: 100%;
+    list-style: none;   
+}
+
+.slider > ul > li > img {
+    width: 100%;
+    height: 95vh;
+} 
+
+@keyframes carrousel {
+    0%{
+        margin-left: 0%;
+    }
+
+    5%{
+        margin-left: 0%;
+    }
+
+    10%{
+        margin-left: -100%;
+    }
+
+    15%{
+        margin-left: -100%;
+    }
+
+    20%{
+        margin-left: -200%;
+    }
+
+    25%{
+        margin-left: -200%;
+    }
+
+    30%{
+        margin-left: -300%;
+    }
+
+    35%{
+        margin-left: -300%;
+    }
+
+    40%{
+        margin-left: -400%;
+    }
+
+    45%{
+        margin-left: -400%;
+    }
+
+    50%{
+        margin-left: -500%;
+    }
+
+    55%{
+        margin-left: -500%;
+    }
+
+    60%{
+        margin-left: -600%;
+    }
+
+    65%{
+        margin-left: -600%;
+    }
+
+    70%{
+        margin-left: -700%;
+    }
+
+    75%{
+        margin-left: -700%;
+    }
+
+    80%{
+        margin-left: -800%;
+    }
+
+    85%{
+        margin-left: -800%;
+    }
+
+    90%{
+        margin-left: -900%;
+    }
+    100%{
+        margin-left: -900%;
+    }
+}

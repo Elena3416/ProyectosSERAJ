@@ -1,0 +1,166 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: burlywood;
+}
+
+.iconos1 {
+    display: flex;
+    flex-flow: row wrap;
+    margin:  10% 30%;
+}
+
+.iconos1 > .instagram{
+    width: 25%;
+    height: 22vh;
+    background: rgb(219, 13, 150);
+    font-size: 100px;
+}
+
+.iconos1 > .instagram > a > .fa{
+    margin: 20px 25px;
+}
+
+.iconos1 > .instagram > a > .fa:hover{
+    color: #ffffff;
+}
+
+.iconos1 > .twitter{
+    width: 25%;
+    height: 22vh;
+    background: rgb(46, 122, 236);
+    font-size: 100px;
+}
+
+.iconos1 > .twitter > a > .fa{
+    margin: 20px 25px;
+}
+
+.iconos1 > .twitter > a > .fa:hover{
+    color: #ffffff;
+}
+
+.iconos1 > .youtube {
+    width: 25%;
+    height: 22vh;
+    background: rgb(245, 3, 3);
+    font-size: 100px;
+}
+
+.iconos1 > .youtube > a > .fa{
+    margin: 20px 17px;
+}
+
+.iconos1 > .youtube > a > .fa:hover{
+    color: #ffffff;
+}
+
+.iconos2{
+    display: flex;
+    flex-flow: row wrap;
+    margin:  -10% 30%;
+}
+
+.iconos2 > .pinterest {
+    width: 25%;
+    height: 20vh;
+    background: rgb(204, 9, 9);
+    font-size: 100px;
+}
+
+.iconos2 > .pinterest > a > .fa{
+    margin: 15px 22px;
+}
+
+.iconos2 > .pinterest > a > .fa:hover{
+    color: #ffffff;
+}
+
+.iconos2 > .facebook {
+    width: 25%;
+    height: 20vh;
+    background: rgb(39, 35, 252);
+    font-size: 125px;
+}
+
+.iconos2 > .facebook > a > .fa{
+    margin: 15px 50px;
+    width: 10%;
+}
+
+.iconos2 > .facebook > a > .fa:hover{
+    color: #ffffff;
+}
+
+.iconos2 > .linkedin {
+    width: 25%;
+    height: 20vh;
+    background: rgb(5, 89, 199);
+    font-size: 100px;
+}
+
+.iconos2 > .linkedin > a > .fa{
+    margin: 15px 25px;
+}
+
+.iconos2 > .linkedin > a > .fa:hover{
+    color: #ffffff;
+}
+
+.iconos1 > .snapshat{
+    width: 25%;
+    height: 20vh;
+    background: rgb(255, 238, 6);
+    font-size: 100px;
+}
+
+.iconos1 > .snapshat > a > .fa{
+    margin:  15px 20px;
+    text-shadow: -2px 0 #000, 0 2px #000, 2px 0 #000, 0 -2px #000;
+}
+
+.iconos1 > .snapshat > a > .fa:hover{
+    color: #ffffff;
+}
+
+.iconos1 > .phone {
+    width: 25%;
+    height: 20vh;
+    background: rgb(114, 6, 255);
+    font-size: 100px;
+}
+
+.iconos1 > .phone > a > .fa{
+    margin: 9px 20px;
+    position: relative;
+    transform: rotate(-40deg);
+    width: 70%;
+    height: 90%;
+    border-radius: 20%;
+}
+
+.iconos1 > .phone > a > .fa:hover{
+    color: #ffffff;
+    border: 5px solid #ffffff;
+}
+
+.iconos1 > .googleplus {
+    width: 25%;
+    height: 20vh;
+    background: rgb(255, 6, 6);
+    font-size: 120px;
+}
+
+.iconos1 > .googleplus > a > .fa{
+    margin: 8px 15px;
+}
+
+.iconos1 > .googleplus > a > .fa:hover{
+    color: #ffffff;
+}
+
+

@@ -1,0 +1,879 @@
+*{
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;   
+}
+
+.titulo{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+}
+
+.titulo >  h1{
+    font-family: 'Courier New', Courier, monospace;
+    color: #8134b4;
+    text-transform: capitalize;
+    margin-top: 1%;
+}
+
+.fila1{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+}
+
+.cuadromorado{
+    width:20%;
+    height: 17vh;
+    background: rgb(202, 71, 241);
+    border: 2px solid #000000;
+    margin-left: 1%;
+}
+
+.cuadromorado > .flex-start{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: flex-start;
+}
+
+.cuadromorado > .flex-start > .cuadro1{
+    width: 23%;
+    height: 50px;
+    background: rgb(250, 73, 3);
+    margin: 1% 1%;
+    border: 2px solid #000000;
+}
+
+.cuadromorado > .flex-start > .cuadro2{
+    width: 23%;
+    height: 70px;
+    background: rgb(250, 73, 3);
+    margin: 1% 1%;
+    border: 2px solid #000000;
+}
+
+.cuadromorado > .flex-start > .cuadro3{
+    width: 23%;
+    height: 25px;
+    background: rgb(250, 73, 3);
+    margin: 1% 1%;
+    border: 2px solid #000000;
+}
+
+.cuadromorado > .flex-start > .cuadro4{
+    width: 23%;
+    height: 45px;
+    background: rgb(250, 73, 3);
+    margin: 1% 1%;
+    border: 2px solid #000000;
+}
+
+.cuadromorado > .flex-end{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: flex-end;
+}
+
+.cuadromorado > .flex-end > .cuadro1{
+    width: 23%;
+    height: 50px;
+    background: rgb(250, 73, 3);
+    margin: 10% 1%;
+    border: 2px solid #000000;
+}
+
+.cuadromorado > .flex-end > .cuadro2{
+    width: 23%;
+    height: 70px;
+    background: rgb(250, 73, 3);
+    margin: 10% 1%;
+    border: 2px solid #000000;
+}
+
+.cuadromorado > .flex-end > .cuadro3{
+    width: 23%;
+    height: 25px;
+    background: rgb(250, 73, 3);
+    margin: 10% 1%;
+    border: 2px solid #000000;
+}
+
+.cuadromorado > .flex-end > .cuadro4{
+    width: 23%;
+    height: 45px;
+    background: rgb(250, 73, 3);
+    margin: 10% 1%;
+    border: 2px solid #000000;
+}
+
+.cuadromorado > .center{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+}
+
+.cuadromorado > .center > .cuadro1 {
+    width: 23%;
+    height: 50px;
+    background: rgb(250, 73, 3);
+    margin: 2% 1%;
+    border: 2px solid #000000;
+}
+
+.cuadromorado > .center > .cuadro2{
+    width: 23%;
+    height: 70px;
+    background: rgb(250, 73, 3);
+    margin: 1% 1%;
+    border: 2px solid #000000;
+}
+
+.cuadromorado > .center > .cuadro3{
+    width: 23%;
+    height: 25px;
+    background: rgb(250, 73, 3);
+    margin: 1% 1%;
+    border: 2px solid #000000;
+}
+
+.cuadromorado > .center > .cuadro4 {
+    width: 23%;
+    height: 45px;
+    background: rgb(250, 73, 3);
+    margin: 10% 1%;
+    border: 2px solid #000000;
+}
+
+.cuadromorado > .strech{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: stretch;
+}
+
+.cuadromorado > .strech > .cuadro1{
+    width: 23%;
+    height: 93px;
+    background: rgb(250, 73, 3);
+    margin: 2% 1%;
+    border: 2px solid #000000;
+}
+
+.cuadromorado > .strech > .cuadro2{
+    width: 23%;
+    height: 93px;
+    background: rgb(250, 73, 3);
+    margin: 2% 1%;
+    border: 2px solid #000000;
+}
+
+.cuadromorado > .strech > .cuadro3{
+    width: 23%;
+    height: 93px;
+    background: rgb(250, 73, 3);
+    margin: 2% 1%;
+    border: 2px solid #000000;
+}
+
+.cuadromorado > .strech > .cuadro4{
+    width: 23%;
+    height: 93px;
+    background: rgb(250, 73, 3);
+    margin: 2% 1%;
+    border: 2px solid #000000;
+}
+
+h1{
+    text-align: center;
+    margin-top: 2%;
+    text-transform: capitalize;
+    color: #8134b4;
+}
+
+.centrarcuadro{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.centrarcuadro > .cuadromorado2{
+    width: 62%;
+    height: 70%;
+    background: rgb(202, 71, 241);
+}
+
+.cuadromorado2 > .baseline{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: baseline;  
+}
+
+.centrarcuadro >  .cuadromorado2  > .baseline > .cuadro1{
+    width: 20%;
+    height: 93px;
+    background: rgb(250, 73, 3);
+    margin: 1% 1%;
+    border: 2px solid #000000;
+    font-size: 20px;
+    text-align: center;
+}
+
+.centrarcuadro > .cuadromorado2  > .baseline > .cuadro2{
+    width: 23%;
+    height: 50px;
+    background: rgb(250, 73, 3);
+    margin: 1% 1%;
+    border: 2px solid #000000;
+    font-size: 15px;
+    text-align: center;
+}
+ 
+.centrarcuadro > .cuadromorado2  > .baseline > .cuadro3{
+    width: 23%;
+    height: 70px;
+    background: rgb(250, 73, 3);
+    margin: 2% 1%;
+    border: 2px solid #000000;
+    font-size: 30px;
+    text-align: center;
+}
+ 
+.centrarcuadro > .cuadromorado2  > .baseline > .cuadro4{
+    width: 23%;
+    height: 85px;
+    background: rgb(250, 73, 3);
+    margin: 1% 1%;
+    border: 2px solid #000000;
+    font-size: 25px;
+    text-align: center;
+}
+
+.flexstart{
+    display: flex;
+    flex-flow: row wrap;
+    align-content: flex-start;
+}
+
+.flexstart > .cuadro1{
+    width: 25%;
+    height: 20px;
+    background: rgb(250, 73, 3);
+    margin: 1% 1%;
+    border: 2px solid #000000;
+    font-size: 25px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.cuadromorado > .flexstart > .cuadro2{
+    width: 46%;
+    height: 20px;
+    background: rgb(250, 73, 3);
+    margin: 1% 1%;
+    border: 2px solid #000000;
+    font-size: 25px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.cuadromorado > .flexstart > .cuadro3{
+    width: 23%;
+    height: 20px;
+    background: rgb(250, 73, 3);
+    margin: 1% 1%;
+    border: 2px solid #000000;
+    font-size: 25px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.cuadromorado > .flexstart > .cuadro4{
+    width: 18%;
+    height: 20px;
+    background: rgb(250, 73, 3);
+    margin: 1% 1%;
+    border: 2px solid #000000;
+    font-size: 25px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.cuadromorado > .flexstart > .cuadro5{
+    width: 20%;
+    height: 20px;
+    background: rgb(250, 73, 3);
+    margin: 1% 1%;
+    border: 2px solid #000000;
+    font-size: 25px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.cuadromorado > .flexstart > .cuadro6{
+    width: 35%;
+    height: 20px;
+    background: rgb(250, 73, 3);
+    margin: 1% 1%;
+    border: 2px solid #000000;
+    font-size: 25px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.cuadromorado > .flexstart > .cuadro7{
+    width: 19%;
+    height: 20px;
+    background: rgb(250, 73, 3);
+    margin: 1% 1%;
+    border: 2px solid #000000;
+    font-size: 25px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.cuadromorado > .flexstart > .cuadro8{
+    width: 24%;
+    height: 20px;
+    background: rgb(250, 73, 3);
+    margin: 1% 1%;
+    border: 2px solid #000000;
+    font-size: 25px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.cuadromorado > .flexstart > .cuadro9{
+    width: 26%;
+    height: 20px;
+    background: rgb(250, 73, 3);
+    margin: 1% 1%;
+    border: 2px solid #000000;
+    font-size: 25px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.cuadromorado > .flexend{
+    display: flex;
+    flex-flow: row wrap;
+    align-content: flex-end;
+}
+
+.cuadromorado > .flexend > .cuadro1{
+    width: 25%;
+    height: 20px;
+    background: rgb(250, 73, 3);
+    margin: 32px 2px;
+    border: 2px solid #000000;
+    font-size: 25px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.cuadromorado > .flexend > .cuadro2{
+    width: 46%;
+    height: 20px;
+    background: rgb(250, 73, 3);
+    margin: 32px 3px;
+    border: 2px solid #000000;
+    font-size: 25px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.cuadromorado > .flexend > .cuadro3{
+    width: 23%;
+    height: 20px;
+    background: rgb(250, 73, 3);
+    margin: 32px 2px;
+    border: 2px solid #000000;
+    font-size: 25px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.cuadromorado > .flexend > .cuadro4{
+    width: 18%;
+    height: 20px;
+    background: rgb(250, 73, 3);
+    margin: -27px 2px;
+    border: 2px solid #000000;
+    font-size: 25px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.cuadromorado > .flexend > .cuadro5{
+    width: 20%;
+    height: 20px;
+    background: rgb(250, 73, 3);
+    margin: -27px 2px;
+    border: 2px solid #000000;
+    font-size: 25px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.cuadromorado > .flexend > .cuadro6{
+    width: 35%;
+    height: 20px;
+    background: rgb(250, 73, 3);
+    margin: -27px 3px;
+    border: 2px solid #000000;
+    font-size: 25px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.cuadromorado > .flexend > .cuadro7{
+    width: 19%;
+    height: 20px;
+    background: rgb(250, 73, 3);
+    margin: -27px 3px;
+    border: 2px solid #000000;
+    font-size: 25px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.cuadromorado > .flexend > .cuadro8 {
+    width: 24%;
+    height: 20px;
+    background: rgb(250, 73, 3);
+    margin: 1px 3px;
+    border: 2px solid #000000;
+    font-size: 25px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.cuadromorado > .flexend > .cuadro9{
+    width: 26%;
+    height: 20px;
+    background: rgb(250, 73, 3);
+    margin: 1px 3px;
+    border: 2px solid #000000;
+    font-size: 25px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.cuadromorado > .center2{
+    display: flex;
+    flex-flow: row wrap;
+    align-content: center;
+}
+
+.cuadromorado > .center2 > .cuadro1{
+    width: 25%;
+    height: 20px;
+    background: rgb(250, 73, 3);
+    margin: 20px 3px;
+    border: 2px solid #000000;
+    font-size: 25px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.cuadromorado .center2 > .cuadro2{
+    width: 46%;
+    height: 20px;
+    background: rgb(250, 73, 3);
+    margin: 20px 2px;
+    border: 2px solid #000000;
+    font-size: 25px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.cuadromorado > .center2 > .cuadro3{
+    width: 23%;
+    height: 20px;
+    background: rgb(250, 73, 3);
+    margin: 20px 2px;
+    border: 2px solid #000000;
+    font-size: 25px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.cuadromorado > .center2 > .cuadro4{
+    width: 18%;
+    height: 20px;
+    background: rgb(250, 73, 3);
+    margin: -16px 2px;
+    border: 2px solid #000000;
+    font-size: 25px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.cuadromorado > .center2 > .cuadro5{
+    width: 20%;
+    height: 20px;
+    background: rgb(250, 73, 3);
+    margin: -16px 2px;
+    border: 2px solid #000000;
+    font-size: 25px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.cuadromorado > .center2 > .cuadro6{
+    width: 35%;
+    height: 20px;
+    background: rgb(250, 73, 3);
+    margin: -16px 3px;
+    border: 2px solid #000000;
+    font-size: 25px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.cuadromorado > .center2 > .cuadro7{
+    width: 19%;
+    height: 20px;
+    background: rgb(250, 73, 3);
+    margin: -13px 3px;
+    border: 2px solid #000000;
+    font-size: 25px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.cuadromorado > .center2 > .cuadro8{
+    width: 24%;
+    height: 20px;
+    background: rgb(250, 73, 3);
+    margin: 8px 3px;
+    border: 2px solid #000000;
+    font-size: 25px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.cuadromorado > .center2 > .cuadro9{
+    width: 26%;
+    height: 20px;
+    background: rgb(250, 73, 3);
+    margin: 8px 3px;
+    border: 2px solid #000000;
+    font-size: 25px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.cuadromorado > .strech2{
+    display: flex;
+    flex-flow: row wrap;
+    align-content: stretch;
+}
+
+.cuadromorado > .strech2 > .cuadro1{
+    width: 25%;
+    height: 30px;
+    background: rgb(250, 73, 3);
+    margin: 3px 3px;
+    border: 2px solid #000000;
+    font-size: 25px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.cuadromorado > .strech2 > .cuadro2{
+    width: 46%;
+    height: 30px;
+    background: rgb(250, 73, 3);
+    margin: 3px 2px;
+    border: 2px solid #000000;
+    font-size: 25px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.cuadromorado > .strech2 > .cuadro3{
+    width: 23%;
+    height: 30px;
+    background: rgb(250, 73, 3);
+    margin: 3px 2px;
+    border: 2px solid #000000;
+    font-size: 25px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.cuadromorado > .strech2 > .cuadro4{
+    width: 18%;
+    height: 30px;
+    background: rgb(250, 73, 3);
+    margin: 1px 2px;
+    border: 2px solid #000000;
+    font-size: 25px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.cuadromorado > .strech2 > .cuadro5{
+    width: 20%;
+    height: 30px;
+    background: rgb(250, 73, 3);
+    margin: 1px 2px;
+    border: 2px solid #000000;
+    font-size: 25px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.cuadromorado > .strech2 > .cuadro6{
+    width: 35%;
+    height: 30px;
+    background: rgb(250, 73, 3);
+    margin: 1px 3px;
+    border: 2px solid #000000;
+    font-size: 25px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.cuadromorado > .strech2 > .cuadro7{
+    width: 19%;
+    height: 30px;
+    background: rgb(250, 73, 3);
+    margin: 1px 3px;
+    border: 2px solid #000000;
+    font-size: 25px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.cuadromorado > .strech2 > .cuadro8{
+    width: 24%;
+    height: 33px;
+    background: rgb(250, 73, 3);
+    margin: 3px 3px;
+    border: 2px solid #000000;
+    font-size: 25px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.cuadromorado > .strech2 > .cuadro9{
+    width: 26%;
+    height: 33px;
+    background: rgb(250, 73, 3);
+    margin: 3px 3px;
+    border: 2px solid #000000;
+    font-size: 25px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.cuadromorado > .spacebetween {
+    display: flex;
+    flex-flow: row wrap;
+    align-content: space-between;
+}
+
+.cuadromorado > .spacebetween > .cuadro1{
+    width: 25%;
+    height: 20px;
+    background: rgb(250, 73, 3);
+    margin: 3px 3px;
+    border: 2px solid #000000;
+    font-size: 25px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.cuadromorado > .spacebetween > .cuadro2{
+    width: 46%;
+    height: 20px;
+    background: rgb(250, 73, 3);
+    margin: 3px 2px;
+    border: 2px solid #000000;
+    font-size: 25px;
+    text-align: center;
+    border-radius: 5px; 
+}
+
+.cuadromorado > .spacebetween > .cuadro3{
+    width: 23%;
+    height: 20px;
+    background: rgb(250, 73, 3);
+    margin: 3px 2px;
+    border: 2px solid #000000;
+    font-size: 25px;
+    text-align: center;
+    border-radius: 5px
+}
+
+.cuadromorado .spacebetween > .cuadro4{
+    width: 18%;
+    height: 20px;
+    background: rgb(250, 73, 3);
+    margin: 20px 2px;
+    border: 2px solid #000000;
+    font-size: 25px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.cuadromorado > .spacebetween > .cuadro5{
+    width: 20%;
+    height: 20px;
+    background: rgb(250, 73, 3);
+    margin: 20px 2px;
+    border: 2px solid #000000;
+    font-size: 25px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.cuadromorado .spacebetween > .cuadro6{
+    width: 35%;
+    height: 20px;
+    background: rgb(250, 73, 3);
+    margin: 20px 3px;
+    border: 2px solid #000000;
+    font-size: 25px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.cuadromorado > .spacebetween > .cuadro7{
+    width: 19%;
+    height: 20px;
+    background: rgb(250, 73, 3);
+    margin: 20px 3px;
+    border: 2px solid #000000;
+    font-size: 25px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.cuadromorado > .spacebetween > .cuadro8{
+    width: 24%;
+    height: 20px;
+    background: rgb(250, 73, 3);
+    margin: 1px 3px;
+    border: 2px solid #000000;
+    font-size: 25px;
+    text-align: center;
+    border-radius: 5px; 
+}
+
+.cuadromorado > .spacebetween > .cuadro9{
+    width: 26%;
+    height: 20px;
+    background: rgb(250, 73, 3);
+    margin: 1px 3px;
+    border: 2px solid #000000;
+    font-size: 25px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.cuadromorado > .spacearround{
+    display: flex;
+    flex-flow: row wrap;
+    align-content: space-around;
+}
+
+.cuadromorado > .spacearround > .cuadro1{
+    width: 25%;
+    height: 23px;
+    background: rgb(250, 73, 3);
+    margin: 3px 3px;
+    border: 2px solid #000000;
+    font-size: 25px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.cuadromorado > .spacearround > .cuadro2{
+    width: 46%;
+    height: 23px;
+    background: rgb(250, 73, 3);
+    margin: 3px 2px;
+    border: 2px solid #000000;
+    font-size: 25px;
+    text-align: center;
+    border-radius: 5px; 
+}
+
+.cuadromorado > .spacearround > .cuadro3{
+    width: 23%;
+    height: 23px;
+    background: rgb(250, 73, 3);
+    margin: 3px 2px;
+    border: 2px solid #000000;
+    font-size: 25px;
+    text-align: center;
+    border-radius: 5px;    
+}
+
+.cuadromorado > .spacearround > .cuadro4{
+    width: 18%;
+    height: 23px;
+    background: rgb(250, 73, 3);
+    margin: 5% 1%;
+    border: 2px solid #000000;
+    font-size: 25px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.cuadromorado > .spacearround > .cuadro5{
+    width: 20%;
+    height: 23px;
+    background: rgb(250, 73, 3);
+    margin: 13px 2px;
+    border: 2px solid #000000;
+    font-size: 25px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.cuadromorado > .spacearround > .cuadro6{
+    width: 35%;
+    height: 23px;
+    background: rgb(250, 73, 3);
+    margin: 13px 2px;
+    border: 2px solid #000000;
+    font-size: 25px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.cuadromorado > .spacearround > .cuadro7{
+    width: 19%;
+    height: 23px;
+    background: rgb(250, 73, 3);
+    margin: 13px 3px;
+    border: 2px solid #000000;
+    font-size: 25px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.cuadromorado > .spacearround > .cuadro8{
+    width: 24%;
+    height: 23px;
+    background: rgb(250, 73, 3);
+    margin: 1px 3px;
+    border: 2px solid #000000;
+    font-size: 25px;
+    text-align: center;
+    border-radius: 5px; 
+}
+
+.cuadromorado > .spacearround > .cuadro9{
+    width: 26%;
+    height: 23px;
+    background: rgb(250, 73, 3);
+    margin: 1px 3px;
+    border: 2px solid #000000;
+    font-size: 25px;
+    text-align: center;
+    border-radius: 5px;
+}

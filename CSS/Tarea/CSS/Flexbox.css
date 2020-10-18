@@ -1,0 +1,184 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: rgb(141, 80, 255);
+    width: 96%;
+    height: 90vh;
+    margin: 10px 20px;
+}
+
+h2{
+    margin-left: 1%;
+    text-transform: capitalize;
+    font-size: 25px;
+}
+
+.fondomorado{
+    width: 97%;
+    height: 10vh;
+    background: rgb(194, 19, 194);
+    margin: 10px 10px;
+    border-radius: 5px;
+    border: 1px solid #000000;
+    box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.2);
+}
+
+ .fondomorado > .flex-start{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+}
+
+.fondomorado > .flex-start > div {
+    width: 100px;
+    height: 40px;
+    background: orange;
+    margin: 10px 10px;
+    border-radius: 5px;
+    border: 1px solid #000000;
+    box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.2);
+}
+
+.fondomorado  > .flex-start > .cuadrochico{
+    width: 50px;
+    height: 40px;
+    background: orange;
+    margin: 10px 10px;
+    border-radius: 5px;
+    border: 1px solid #000000;
+    box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.2);
+}
+
+.fondomorado > .flex-end{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-end   ;
+}
+
+.fondomorado > .flex-end > div {
+    width: 100px;
+    height: 40px;
+    background: orange;
+    margin: 10px 10px;
+    border-radius: 5px;
+    border: 1px solid #000000;
+    box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.2);
+}
+
+.fondomorado  > .flex-end > .cuadrochico{
+    width: 50px;
+    height: 40px;
+    background: orange;
+    margin: 10px 10px;
+    border-radius: 5px;
+    border: 1px solid #000000;
+    box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.2);
+}
+
+.fondomorado > .center{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.fondomorado > .center > div {
+    width: 100px;
+    height: 40px;
+    background: orange;
+    margin: 10px 10px;
+    border-radius: 5px;
+    border: 1px solid #000000;
+    box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.2);
+}
+
+.fondomorado  > .center > .cuadrochico{
+    width: 50px;
+    height: 40px;
+    background: orange;
+    margin: 10px 10px;
+    border-radius: 5px;
+    border: 1px solid #000000;
+    box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.2);
+}
+
+.fondomorado > .space-between{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+.fondomorado > .space-between > div {
+    width: 100px;
+    height: 40px;
+    background: orange;
+    margin: 10px 10px;
+    border-radius: 5px;
+    border: 1px solid #000000;
+    box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.2);
+}
+
+.fondomorado  > .space-between > .cuadrochico{
+    width: 50px;
+    height: 40px;
+    background: orange;
+    margin: 10px 10px;
+    border-radius: 5px;
+    border: 1px solid #000000;
+    box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.2);
+}
+
+.fondomorado > .space-around{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+.fondomorado > .space-around > div {
+    width: 100px;
+    height: 40px;
+    background: orange;
+    margin: 10px 10px;
+    border-radius: 5px;
+    border: 1px solid #000000;
+    box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.2);
+}
+
+.fondomorado  > .space-around > .cuadrochico{
+    width: 50px;
+    height: 40px;
+    background: orange;
+    margin: 10px 10px;
+    border-radius: 5px;
+    border: 1px solid #000000;
+    box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.2);
+}
+
+.fondomorado > .space-evenly{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+}
+
+.fondomorado > .space-evenly > div {
+    width: 100px;
+    height: 40px;
+    background: orange;
+    margin: 10px 10px;
+    border-radius: 5px;
+    border: 1px solid #000000;
+    box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.2);
+}
+
+.fondomorado  > .space-evenly > .cuadrochico{
+    width: 50px;
+    height: 40px;
+    background: orange;
+    margin: 10px 10px;
+    border-radius: 5px;
+    border: 1px solid #000000;
+    box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.2);
+}

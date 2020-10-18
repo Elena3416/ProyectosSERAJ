@@ -1,0 +1,43 @@
+body{
+    margin: 10% 5%;
+}
+
+h1{
+    color: red;
+    text-decoration-line: underline;
+}
+
+p{
+    text-align: justify;
+    font-size: 20px;
+    width: 95%;
+}
+
+#parrafo1{
+    color: rgb(22, 77, 95);
+}
+
+.textosubrayado{
+    color: red;
+    text-decoration-line: underline;
+}
+
+#fondoparrafo{
+    font-style: italic;
+    color: blue;
+    background-color: #ffffcc;
+}
+
+#parrafo2{
+    color: grey;
+}
+
+mark{
+    background-color: #000000;
+    font-style: italic;
+    color: yellow;
+}
+
+.Textonegritas{
+    font-weight: bold;
+}

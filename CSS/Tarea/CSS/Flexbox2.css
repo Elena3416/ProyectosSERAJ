@@ -1,0 +1,268 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.fondo{
+    width: 100%;
+    height: 100vh;
+    background: rgb(163, 162, 162);
+    width: 60%;
+    height: 90%;
+    margin: 5% 20%;
+}
+
+.fondo > .informacion{
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.fondo > .informacion > .numero{
+    width: 50px;
+    height: 30px;
+    background: rgb(247, 129, 129);
+    margin-top:8%;
+    margin-right: 15%;
+}
+
+.fondo > .informacion > .numero > p{
+    color: #ffffff;
+    margin: 5px;
+    font-size: 20px;
+}
+
+.fondo > .informacion > .texto{
+    color: rgb(34, 33, 33);
+    font-weight: 900;
+    width: 40%; 
+}
+
+.fondo > .informacion > .texto > h1{
+    font-size: 50px;
+    margin-top: 15%;
+    margin-left: -20%;
+}
+
+.fondo > .informacion > .flexstart{
+    display: flex;
+    flex-flow: row wrap;
+    background: #ffffff;
+    border: 1px solid #555454;
+    width: 30%;
+    height: 13vh;
+    margin-top: 5%;
+    margin-left: -5%;
+}
+
+.fondo > .informacion > .flexstart > .colormorado{
+    width: 60px;
+    height: 70px;
+    background: rgb(156, 13, 80);
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+.fondo > .informacion > .flexstart > .colorazul{
+    width: 60px;
+    height: 70px;
+    background: rgb(18, 142, 214);
+    margin-top: 5px;
+}
+
+.fondo > .informacion > .flexstart > .colorrosa{
+    width: 50px;
+    height: 70px;
+    background: rgb(215, 98, 226);
+    margin-top:5px;
+}
+
+.fondo > .texto2 {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.fondo > .texto2 > pre{
+    color:rgb(85, 85, 85);
+    font-size: 22px;
+    margin-left: 15%;
+}
+
+.fondo > .texto2 > p:nth-child(2){
+    color:rgb(53, 52, 52);
+    font-size: 30px;
+    margin-left: 15%;
+}
+
+.fondo > .texto2 > p:nth-child(3){
+    color:rgb(82, 81, 81);
+    font-size: 30px;
+    margin-left: 66%;
+    margin-top: -2%; 
+}
+
+.fondo > .centerflex-end {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+}
+
+.fondo > .centerflex-end > .center {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    background: #ffffff;
+    border: 1px solid #555454;
+    width: 30%;
+    height: 13vh;
+    margin: 10px 10px;
+    margin-top: 3%;
+}
+
+.fondo > .centerflex-end  > .center > .colormorado{
+    width: 60px;
+    height: 70px;
+    background: rgb(156, 13, 80);
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+.fondo > .centerflex-end > .center > .colorazul{
+    width: 60px;
+    height: 70px;
+    background: rgb(18, 142, 214);
+    margin-top: 5px;
+}
+
+.fondo > .centerflex-end > .center > .colorrosa{
+    width: 50px;
+    height: 70px;
+    background: rgb(215, 98, 226);
+    margin-top:5px;
+}
+
+.fondo > .centerflex-end > .flex-end{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-end;
+    background: #ffffff;
+    border: 1px solid #555454;
+    width: 30%;
+    height: 13vh;
+    margin-top: 3%;
+}
+
+.fondo > .centerflex-end  > .flex-end > .colormorado{
+    width: 60px;
+    height: 70px;
+    background: rgb(156, 13, 80);
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+.fondo > .centerflex-end > .flex-end > .colorazul{
+    width: 60px;
+    height: 70px;
+    background: rgb(18, 142, 214);
+    margin-top: 5px;
+}
+
+.fondo > .centerflex-end > .flex-end > .colorrosa{
+    width: 50px;
+    height: 70px;
+    background: rgb(215, 98, 226);
+    margin-top:5px;
+    margin-right:3%;
+}
+
+.fondo > .texto3{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+}
+
+.fondo > .texto3 > p:nth-child(1){
+    color:rgb(53, 52, 52);
+    font-size: 30px;
+}
+
+.fondo > .texto3 > p:nth-child(2){
+    color:rgb(53, 52, 52);
+    font-size: 30px;
+    margin-left:4%;
+}
+
+.fondo > .space-betweenyaround{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+}
+
+.fondo > .space-betweenyaround > .space-between {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    background: #ffffff;
+    border: 1px solid #555454;
+    width: 30%;
+    height: 13vh;
+    margin: 10px 10px;
+    margin-top: 3%;
+}
+
+.fondo > .space-betweenyaround > .space-between > .colormorado{
+    width: 60px;
+    height: 70px;
+    background: rgb(156, 13, 80);
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+.fondo > .space-betweenyaround > .space-between > .colorazul{
+    width: 60px;
+    height: 70px;
+    background: rgb(18, 142, 214);
+    margin-top: 5px;
+}
+
+.fondo > .space-betweenyaround > .space-between > .colorrosa{
+    width: 50px;
+    height: 70px;
+    background: rgb(215, 98, 226);
+    margin-top:5px;
+    margin-right: 2%;
+}
+
+.fondo > .space-betweenyaround > .space-around {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    background: #ffffff;
+    border: 1px solid #555454;
+    width: 30%;
+    height: 13vh;
+    margin: 10px 10px;
+    margin-top: 3%;
+}
+
+.fondo > .space-betweenyaround > .space-around > .colormorado{
+    width: 60px;
+    height: 70px;
+    background: rgb(156, 13, 80);
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+.fondo > .space-betweenyaround > .space-around > .colorazul{
+    width: 60px;
+    height: 70px;
+    background: rgb(18, 142, 214);
+    margin-top: 5px;
+}
+
+.fondo > .space-betweenyaround > .space-around > .colorrosa{
+    width: 50px;
+    height: 70px;
+    background: rgb(215, 98, 226);
+    margin-top:5px;
+}

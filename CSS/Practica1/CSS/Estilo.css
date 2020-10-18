@@ -1,0 +1,68 @@
+body{
+    background: #23ACE3;
+    margin: 0;
+    padding: 0;
+}
+
+/* el signo de * afecta los estilos de toda la pagina
+body afecta los estilos del body*/
+/* 
+*{
+    background:23ACE3;
+    margin: 0;
+    padding: 0;
+} */
+
+section{
+    width: 100%;
+    height: 100vh;
+    box-sizing: border-box;
+}
+
+.sec1{
+    background: url("./../../IMG/lake.jpg"); /*Se utiliza para agregar una imagen de fondo de pantalla */
+    background-repeat: no-repeat; /*Se utiliza para que la imagen no se repita*/
+    background-size: cover; /*Se utiliza para cubrir la imagen de acuerdo al tamaño que le dimos en el section*/
+    background-position: center; /*Se utiliza para centrar la imagen en el section*/
+    background-attachment: fixed; /*Se utiliza para mandar la imagen como fondo de pantalla y que la imagen quede fija*/
+}
+
+.sec2{
+    background: url("./../../IMG/frases-de-paisajes.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.sec3{
+    background: url("./../../IMG/paisajes02.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.sectext{
+    height: auto; /*La etiqueta height: auto se acomoda dependiendo del titulo y el tamaño del parrafo*/
+    padding: 50px 100px; /*Se agrega un espacio de 50px arriba y abajo y 100px de izq y derecha*/ 
+}
+
+.sectext > h3 {
+    margin: 0;
+    padding: 0;
+    font-size: 48px; /*Se utiliza para darle tamaño a la etiqueta*/
+    color: #ffffff; /*Se utiliza para darle color al texto*/
+}
+
+.sectext > p{
+    font-size: 18px;
+    color: #ffffff;
+    text-align: justify; /*Alineacion de texto justificadamente*/
+}
+
+h1{
+    font-size: 48px;
+    color: #ffffff;
+    padding-left: 50px; /*darle un espacio hacia la derecha*/
+}

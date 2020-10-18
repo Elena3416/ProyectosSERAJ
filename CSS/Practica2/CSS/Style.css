@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Ultra&display=swap');
+
+*{
+ margin: 0;
+ padding: 0;   
+}
+
+header{
+    background: #cccccc;
+    width: 99%;
+    height: 20vh;
+    margin: 3px 3px;
+    border: 3px solid #ffffff;
+    position: relative;
+}
+
+h1{
+    font-size: 40px;
+    position: absolute;
+    top: 35px;
+    left: 40px;
+    font-family: "Courgette", sans-serif, Arial;
+    font-style: italic;
+    font-weight: bold;
+}
+
+#fuente{
+    font-size: 40px;
+    font-style: initial;
+    text-transform: uppercase;
+    font-family: "Ultra", sans-serif;
+}
+
+article{
+    background: lightgreen;
+    width: 85%;
+    height: 80vh;
+    margin: 1px 2px;
+    border: 2px solid #ffffff;
+    position: relative;
+    float: left;
+}
+
+article > div > h2 {
+    font-size: 20px;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    margin: 3px 3px;
+}
+
+article > div > #subtitulo2
+{
+    position: absolute;
+    left: 55%;
+    bottom: 92%;
+}
+
+article > div > p {
+    font-size: 17px;
+    text-transform: uppercase;
+    width: 45%;
+    height: 50px;
+    text-align: justify;
+    margin: 10px 10px;
+    font-family: sans-serif;
+}
+
+article > div > #parrafo2 {
+    position: absolute;
+    left: 52%;
+    bottom: 80%;
+}
+
+article > div > #subtitulo3 {
+    position: absolute;
+    top: 50%;
+}
+
+article > div > #parrafo3 {
+    position: absolute;
+    top: 60%;
+}
+
+img{
+    margin: 10px 10px;
+    width: 40vw;
+    height: 40vh;
+    position: absolute;
+    left: 50%;
+    top:44%;
+}
+
+aside{
+    width: 10%;
+    height: 60vh;
+    float: left;
+}
+
+#caja1{
+    border: 2px solid #ffffff;
+    background: lightgreen;
+    width: 14vw;
+    height: 20vh;
+}
+
+#caja2{
+    border: 2px solid #ffffff;
+    background: #cccccc;
+    width: 14vw;
+    height: 70vh;
+}
+
+footer{
+    clear: both; /*Para limpiar la instruccion que realizamos del footer*/
+    width: 85%;
+    height: 10vh;
+    background: lightgreen;
+    margin: 2px 2px;
+    border: 1px solid #ffffff;
+}
+
+h6{
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 20px;
+    font-style: italic;
+}

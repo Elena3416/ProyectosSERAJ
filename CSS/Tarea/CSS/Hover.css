@@ -1,0 +1,344 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: rgb(183, 231, 240);
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    margin-top: 10%;
+}
+
+.cuadroverde{
+    width: 20%;
+    height: 62vh;
+    border: 2px solid #16a086;
+}
+
+.cuadroverde > .moneda {
+    background: #16a086;
+    width: 100%;
+    height: 15vh;
+}
+
+.cuadroverde > .moneda > p:nth-child(1){
+    color: #ffffff;
+    font-size: 30px;
+    text-align: center;
+    padding: 10px;
+}
+
+.cuadroverde > .moneda > p:nth-child(2){
+    color: #ffffff;
+    font-size: 25px;
+    text-align: center;
+}
+
+.cuadroverde > .moneda > p:nth-child(1):hover{
+    color:rgb(6, 6, 247);
+}
+
+.cuadroverde > .moneda > p:nth-child(2):hover{
+    color:rgb(6, 6, 247);
+}
+
+.cuadroverde > .cuadroblanco{
+    background: #ffffff;
+    width: 100%;
+    height: 45vh;
+}
+
+.cuadroverde > .cuadroblanco > p{
+    padding: 10px 5px;
+    text-align: center;
+    font-size: 17px;
+    color: rgb(161, 158, 158);
+}
+
+.cuadroverde > .cuadroblanco > p >.negritas{
+    font-weight: 900;
+}
+
+.cuadroverde >.cuadroblanco > .lineapuntos{
+    width: 90%;
+    height: 3px;
+    border-bottom: dotted;
+    border-bottom-color: rgb(156, 150, 150);
+    margin-left: 5%;
+}
+
+.cuadroverde > .cuadroblanco > .boton{
+    padding: 20px 80px;
+}
+
+.cuadroverde > .cuadroblanco > .boton > button{
+    background: #16a086;
+    border: 2px solid #16a086;
+    width: 100px;
+    height: 40px;
+    color: #ffffff;
+}
+
+.cuadroverde > .cuadroblanco > .lineaverde{
+    width: 100%;
+    height: 2vh;
+    background: #16a086;
+    margin-top: -6px;
+}
+
+.cuadroverde > .cuadroblanco > .boton > button:hover{
+    background: #28bb59;
+    cursor: pointer;
+}
+
+.cuadroamarillo{
+    width: 20%;
+    height: 62vh;
+    border: 2px solid #f49c14;
+}
+
+.cuadroamarillo > .moneda {
+    background: #f49c14;
+    width: 100%;
+    height: 15vh;
+}
+
+.cuadroamarillo > .moneda > p:nth-child(1){
+    color: #ffffff;
+    font-size: 30px;
+    text-align: center;
+    padding: 10px;
+}
+
+.cuadroamarillo > .moneda > p:nth-child(2){
+    color: #ffffff;
+    font-size: 25px;
+    text-align: center;
+}
+
+.cuadroamarillo > .moneda > p:nth-child(1):hover{
+    color: #f30909;
+}
+
+.cuadroamarillo > .moneda > p:nth-child(2):hover{
+    color: #f30909;
+}
+
+.cuadroamarillo > .cuadroblanco{
+    background: #ffffff;
+    width: 100%;
+    height: 45vh;
+}
+
+.cuadroamarillo > .cuadroblanco > p{
+    padding: 10px 5px;
+    text-align: center;
+    font-size: 17px;
+    color: rgb(161, 158, 158);
+}
+
+.cuadroamarillo > .cuadroblanco > p >.negritas{
+    font-weight: 900;
+}
+
+.cuadroamarillo >.cuadroblanco > .lineapuntos{
+    width: 90%;
+    height: 3px;
+    border-bottom: dotted;
+    border-bottom-color: rgb(156, 150, 150);
+    margin-left: 5%;
+}
+
+.cuadroamarillo > .cuadroblanco > .boton{
+    padding: 20px 80px;
+}
+
+.cuadroamarillo > .cuadroblanco > .boton > button{
+    background: #f49c14;
+    border: 2px solid #f49c14;
+    width: 100px;
+    height: 40px;
+    color: #ffffff;
+}
+
+.cuadroamarillo > .cuadroblanco > .boton > button:hover{
+    background: #deee05;
+    cursor: pointer;
+    color: #000000;
+}
+
+.cuadroamarillo > .cuadroblanco > .lineamarillo{
+    width: 100%;
+    height: 2vh;
+    background: #f49c14;
+    margin-top: -6px;
+}
+
+.cuadrorojo{
+    width: 20%;
+    height: 62vh;
+    border: 2px solid #c03a2e;
+}
+
+.cuadrorojo > .moneda {
+    background: #c03a2e;
+    width: 100%;
+    height: 15vh;
+}
+
+.cuadrorojo > .moneda > p:nth-child(1){
+    color: #ffffff;
+    font-size: 30px;
+    text-align: center;
+    padding: 10px;
+}
+
+.cuadrorojo > .moneda > p:nth-child(2){
+    color: #ffffff;
+    font-size: 25px;
+    text-align: center;
+}
+
+.cuadrorojo > .moneda > p:nth-child(1):hover{
+    color: #f38451;
+}
+
+.cuadrorojo > .moneda > p:nth-child(2):hover{
+    color: #f38451;
+}
+
+.cuadrorojo > .cuadroblanco{
+    background: #ffffff;
+    width: 100%;
+    height: 45vh;
+}
+
+.cuadrorojo > .cuadroblanco > p{
+    padding: 10px 5px;
+    text-align: center;
+    font-size: 17px;
+    color: rgb(161, 158, 158);
+}
+
+.cuadrorojo > .cuadroblanco > p >.negritas{
+    font-weight: 900;
+}
+
+.cuadrorojo >.cuadroblanco > .lineapuntos{
+    width: 90%;
+    height: 3px;
+    border-bottom: dotted;
+    border-bottom-color: rgb(156, 150, 150);
+    margin-left: 5%;
+}
+
+.cuadrorojo > .cuadroblanco > .boton{
+    padding: 20px 80px;
+}
+
+.cuadrorojo > .cuadroblanco > .boton > button{
+    background: #c03a2e;
+    border: 2px solid #c03a2e;
+    width: 100px;
+    height: 40px;
+    color: #ffffff;
+}
+
+.cuadrorojo > .cuadroblanco > .boton > button:hover{
+    background: #f37906;
+    cursor: pointer;
+}
+
+.cuadrorojo > .cuadroblanco > .linearoja{
+    width: 100%;
+    height: 2vh;
+    background: #c03a2e;
+    margin-top: -6px;
+}
+
+.cuadroazul{
+    width: 20%;
+    height: 62vh;
+    border: 2px solid #2881bb;
+}
+
+.cuadroazul > .moneda {
+    background: #2881bb;
+    width: 100%;
+    height: 15vh;
+}
+
+.cuadroazul > .moneda > p:nth-child(1){
+    color: #ffffff;
+    font-size: 30px;
+    text-align: center;
+    padding: 10px;
+}
+
+.cuadroazul > .moneda > p:nth-child(2){
+    color: #ffffff;
+    font-size: 25px;
+    text-align: center;
+}
+
+.cuadroazul > .moneda > p:nth-child(1):hover{
+    color: #09d9fd;
+}
+
+.cuadroazul > .moneda > p:nth-child(2):hover{
+    color: #09d9fd;
+}
+
+.cuadroazul > .cuadroblanco{
+    background: #ffffff;
+    width: 100%;
+    height: 45vh;
+}
+
+.cuadroazul> .cuadroblanco > p{
+    padding: 10px 5px;
+    text-align: center;
+    font-size: 17px;
+    color: rgb(161, 158, 158);
+}
+
+.cuadroazul > .cuadroblanco > p >.negritas{
+    font-weight: 900;
+}
+
+.cuadroazul >.cuadroblanco > .lineapuntos{
+    width: 90%;
+    height: 3px;
+    border-bottom: dotted;
+    border-bottom-color: rgb(156, 150, 150);
+    margin-left: 5%;
+}
+
+.cuadroazul > .cuadroblanco > .boton{
+    padding: 20px 80px;
+}
+
+.cuadroazul > .cuadroblanco > .boton > button{
+    background: #2881bb;
+    border: 2px solid #2881bb;
+    width: 100px;
+    height: 40px;
+    color: #ffffff;
+}
+
+.cuadroazul > .cuadroblanco > .boton > button:hover{
+    background: #423570;
+    cursor: pointer;
+}
+
+.cuadroazul > .cuadroblanco > .lineaazul{
+    width: 100%;
+    height: 2vh;
+    background: #2881bb;
+    margin-top: -6px;
+}

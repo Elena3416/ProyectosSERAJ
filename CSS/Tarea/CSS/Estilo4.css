@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Bigshot+One&family=Dancing+Script&family=Dorsa&display=swap');
+
+body{
+    background: #1ed296;
+    width: 50%;
+    height: 50%;
+    margin: 4% 26%;
+}
+
+h1{
+    text-transform: uppercase;
+    font-family: "Dancing Script";
+}
+
+div > h2 {
+    text-transform: uppercase;
+    font-family: "Dorsa";
+    font-size: 35px;
+}
+
+div > ul > li {
+    color: #ffffff;
+    font-size: 17px;
+    list-style: square;
+    text-transform: capitalize;
+}
+
+div > ul > li > .textosubrayado{
+    text-decoration-line: underline;
+    font-weight: bold;
+}

@@ -1,0 +1,39 @@
+*{
+    background: #CCFFCC;
+    margin: 10px 10px;
+    font-size: 17px;
+}
+
+h1{
+    color: #FF0039;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.Subtitulo{
+    color:#AB1112;
+} 
+
+ul > li {
+    color: #006400;
+    margin: 0;
+}
+
+.color{
+    color: #0000FF;
+}
+
+.parrafo{
+    color: #0000FF;
+    text-align: justify;
+}
+
+.tamañoletra{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+mark{
+    background-color: #000000;
+    color: #ffffff;
+}
