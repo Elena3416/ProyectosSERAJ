@@ -12,7 +12,7 @@
   <body>
        <div class="container">
            <div class="jumbotron mt-3">
-               <h1>Comparación de 3 números</h1>
+               <h1 class="text-center">Comparación de 3 números</h1>
                <div class="form-group">
                  <label for="">Ingresa el primer número</label>
                  <input type="number"
@@ -31,11 +31,12 @@
                   class="form-control" name="" id="Numero3" aria-describedby="helpId" 
                   placeholder="Ingresa el tercer número">
               </div>
-              <button type="button" name="" id="BotonCalcular"
-              onclick="ComparacionNumeros()" class="btn btn-primary btn-lg btn-block">
-                ComparaciónNumeros
+              <button type="button" name="" id="BotonCalcular" onclick="ComparacionNumeros()"
+              class="btn btn-primary btn-lg btn-block">
+              <!--La funcion onclick se utiliza para darle click al boton y hacer una accion-->
+                Calcular Numero Mayor
               </button>
-              <div class="alert alert-danger mt-3" role="alert" id="ImprimirNumeroMayor"></div>
+              <div class="alert alert-danger mt-2" role="alert" id="ImprimirNumeroMayor"></div>
            </div>
        </div> 
       <script src="./../js/NumeroMayor.js"></script>
