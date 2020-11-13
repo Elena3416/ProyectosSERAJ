@@ -9,6 +9,9 @@ function ComparacionNumerosPares(){
     }
     else
     {
-       console.log("No es un numero par"); 
+       console.log("Es un numero impar"); 
     }
 }
+
+2,4,6,8,10,12,14,18 //numeros pares
+1,3,5,7,9,11,13,15 //numeros impares

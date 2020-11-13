@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <title>NumerosPares</title>
+    <title>Descuento Trajes</title>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -9,8 +9,24 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   </head>
-  <body onload="ComparacionNumerosPares()">
-      <script src="./../js/NumerosPares.js"></script>
+  <body>
+      <div class="container">
+          <div class="jumbotron mt-3">
+              <h1 class="text-center" >Almacenes “Don Baratón”</h1>
+              <div class="form-group">
+                <label for="">Ingresa el precio de un traje</label>
+                <input type="number"
+                  class="form-control" name="" id="PrecioTraje" aria-describedby="helpId" 
+                  placeholder="Ingresa el precio de un traje">
+              </div>
+              <button type="button" name="" id="DescTraje" onclick="DescuentosTraje()"
+               class="btn btn-primary btn-lg btn-block">
+                  Calcular Descuento
+              </button>
+              <div class="alert alert-dark mt-3" role="alert" id="DescuentoTraje"></div>
+          </div>
+      </div>
+      <script src="./../JS/DescuentoTrajes.js"></script>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>

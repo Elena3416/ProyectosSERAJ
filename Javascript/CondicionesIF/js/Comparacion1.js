@@ -23,7 +23,4 @@ function CalcularEdad()
     }else if(edad<18 && ine==0){
         imprimirInformacion.innerText = "La persona es menor de edad, pero no puede tener ine";
     } 
-
-
- 
 }
