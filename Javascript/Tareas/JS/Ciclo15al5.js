@@ -5,6 +5,7 @@ function EventListener(){
 function CalcularNumeros(){
 
     var imprimirnumeros = document.getElementById("imprimirlistado");
+    imprimirnumeros.innerText = "";
 
     for(var x=15; x>=5; x--){
         var listado = document.createElement("li");

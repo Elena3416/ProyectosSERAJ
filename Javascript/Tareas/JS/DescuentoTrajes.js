@@ -6,6 +6,7 @@ function DescuentosTraje(){
 
     var PrecioTraje = Number(document.getElementById("PrecioTraje").value);
     var ImprimirPrecioDescuento = document.getElementById("DescuentoTraje");
+    ImprimirPrecioDescuento.innerText = "";
     var Descuento = 0, cantdescuento = 0;
 
     if(PrecioTraje > 3600){

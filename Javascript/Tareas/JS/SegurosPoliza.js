@@ -7,6 +7,7 @@ function CalcularPoliza(){
     var CostoPoliza = String(document.getElementById("CostoPoliza").value);
     var PosiblesHabitos = String(document.getElementById("habitos").value);
     var imprimircostopoliza = document.getElementById("Imprimirpoliza");
+    imprimircostopoliza.innerText = "";
     var cargo=0, totalpoliza =0;
 
     if(TipoPoliza == 'A' && CostoPoliza == '1' && PosiblesHabitos == "1"){

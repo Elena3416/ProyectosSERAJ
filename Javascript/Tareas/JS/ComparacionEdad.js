@@ -8,6 +8,7 @@ function CalcularDifEdad(){
     var Edad2 = Number(document.getElementById("Edad2").value);
     var EdadMayor = document.getElementById("EdadMayor");
     var DiferenciaEdad = document.getElementById("DiferenciaEdad");
+    DiferenciaEdad.innerText = "";
     var diferenciaEdad = 0;
 
     if(Edad1 > Edad2){

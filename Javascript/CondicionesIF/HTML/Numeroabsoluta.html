@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <title>Sueldo Base</title>
+    <title>Número Absoluto</title>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -11,37 +11,23 @@
   </head>
   <body>
       <div class="container">
-          <div class="jumbotron">
-              <h1>Calcular Sueldo empleado</h1>
+          <div class="jumbotron mt-2">
+              <h1 class="text-center">Números absolutos</h1>
               <div class="form-group">
-                <label for="">Ingresa el sueldo</label>
+                <label for="">Ingresa un número</label>
                 <input type="number"
-                  class="form-control" name="" id="sueldo" aria-describedby="helpId" 
-                  placeholder="Ingresa el sueldo">
+                  class="form-control" name="" id="numero1" aria-describedby="helpId" 
+                  placeholder="Ingresa un número">
               </div>
-              <div class="form-check">
-                  <label class="form-check-label">
-                  <input type="radio" class="form-check-input" name="
-                  " id="10porciento" value="1">
-                 Agregar 10%
-                </label>
-                <label class="form-check-label ml-4">
-                    <input type="radio" class="form-check-input " name="Grupo1" id="50porciento" value="2">
-                      Agregar 50% 
-                  </label>
-              </div>
-              <div class="form-check">
-                 
-              </div>
-              <button type="button" name="" id="btnCalcular" onclick="CalcularSueldo()"
-              class="btn btn-primary mt-3" btn-lg btn-block">
-                  Calcular
+              <button type="button" name="" id="btncalcular" onclick="Calcularnumabsoluto()" 
+              class="btn btn-primary btn-lg btn-block">
+                  Calcular Número Absoluto
               </button>
-              <div class="alert alert-dark mt-2" role="alert" id="imprimirsueldo"></div>
+              <div class="alert alert-dark mt-2" role="alert" id="imprimirnumero"></div>
           </div>
       </div>
     <!-- Optional JavaScript -->
-    <script src="./../JS/Sueldo.js"></script>
+    <script src="./../js/Numeroabsoluto.js"></script>
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>

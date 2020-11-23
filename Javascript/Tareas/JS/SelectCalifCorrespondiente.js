@@ -5,6 +5,7 @@ function EventListener(){
 function CalcularCals(){
     var selectcals = String(document.getElementById("Calificaciones").value);
     var imprimirrefs = document.getElementById("Imprimirrefcorres");
+    imprimirrefs.innerText = "";
 
     if(selectcals == "10"){
         imprimirrefs.innerText = "La calificación 10 corresponde a la letra A";

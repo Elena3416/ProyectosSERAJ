@@ -6,6 +6,7 @@ function CalcularCalificacion(){
     
     var Calificacion = Number(document.getElementById("Calificacion").value);
     var imprimirletracorrespondiente = document.getElementById("ReferenciandoCalificacion");
+    imprimirletracorrespondiente.innerText = "";   
 
     if(Calificacion == 10){
         imprimirletracorrespondiente.innerText = "La calificación corresponde es la letra A";  
