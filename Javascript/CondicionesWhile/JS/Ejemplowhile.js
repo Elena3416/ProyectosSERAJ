@@ -16,6 +16,6 @@ function Calcularfrase(){
         lista.innerText = "Hola Mundo";
         salida1.appendChild(lista);  
         //Se encarga para contar de uno en uno hasta el numero 9
-    x++;
+        x++;
     }
 }
