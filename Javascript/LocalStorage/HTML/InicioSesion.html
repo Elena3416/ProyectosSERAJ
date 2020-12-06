@@ -12,38 +12,37 @@
 </head>
   <body>
       <div class="container">
-          <div class="jumbotron mt-5">
-              <div class="cuadroblanco">
-                <img src="./../IMG/usuario.png" class="img-fluid ${3|rounded-top,rounded-right,rounded-bottom,rounded-left,rounded-circle,|}" alt="">
-                <h1 class="titulo">SIGN IN</h1>
+        <div class="jumbotron mt-5">
+          <div class="cuadrorojo"></div>   
+          <img src="./../IMG/usuario.png" class="img-fluid ${3|rounded-top,rounded-right,rounded-bottom,rounded-left,rounded-circle,|}" alt="Regresar">
+             <div class="cuadroblanco">
+                <h1>SIGN IN</h1>
                 <div class="form-group">
                   <input type="text"
                     class="form-control" name="" id="username" aria-describedby="helpId" 
-                    placeholder="Username">
+                    placeholder="USERNAME">
                 </div>
                 <div class="form-group">
                   <input type="password"
                     class="form-control" name="" id="Password" aria-describedby="helpId" 
-                    placeholder="Password">
+                    placeholder="PASSWORD">
                 </div>
                 <div class="form-check">
                   <label class="form-check-label">
-                    <input type="checkbox" class="form-check-input id="remember" value="checkedValue"
-                    onclick="ObtenerInformación()">
+                    <input type="checkbox" class="form-check-input" id="remember" value="checkedValue"
+                    onclick="ObtenerInformación()" checked>
                     Remember Me
                   </label>
-                  <a name="" id="" class="btn btn-success" id="boton" href="#" role="button">
-                    Forgot Password
-                </a>  
+                <a href="./../HTML/ResetPassword.html"> <label for="" id="ForgotPassword">Forgot Password?</label> </a> 
                 </div>
-                <button type="button" name="" id="ingresarusuario" onclick="GuardarUsuario()"
-                class="btn btn-primary mt-2">
-                    INICIAR SESIÓN
-                </button>
             <div class="alert alert-dark mt-2" role="alert" id="ObtenerUsuario"></div>
             <div class="alert alert-dark mt-2" role="alert" id="ObtenerPassword"></div>
-            <div class="alert alert-dark mt-2" role="alert" id="    "></div>
-            </div>
+            <div class="alert alert-dark mt-2" role="alert" id="imprimirInformacion"></div>
+            <button type="button" name="" id="ingresarusuario" onclick="GuardarUsuario()"
+            class="btn btn-danger mt-2">
+                INICIAR SESIÓN
+            </button>
+          </div>
       </div>
     <!-- Optional JavaScript -->
     <script src="./../JS/InicioSesion.js"></script>

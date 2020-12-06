@@ -1,7 +1,3 @@
-function EventListener(){
-    document.getElementById("ingresarusuario").addEventListener("click", GuardarUsuario());
-}
-
 function GuardarUsuario(){
 
     var usuario = String(document.getElementById("username").value);
@@ -12,6 +8,8 @@ function GuardarUsuario(){
     if(usuario != "" && password != ""){
         localStorage.setItem("Usuario", usuario); 
         localStorage.setItem("Password", password); 
+
+        alert("La información se guardo correctamente");
     }else{
         imprimirvalidacion.innerText = "No se ha ingresado ninguna información";
     }
