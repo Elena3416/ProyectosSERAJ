@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Inicio Sesión</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="./../CSS//InicioSesion.css">
+</head>
+  <body>
+      <div class="container"> 
+          <img src="./../IMG/user-login.png" class="img-fluid ${3|rounded-top,rounded-right,rounded-bottom,rounded-left,rounded-circle,|}" alt="Regresar">
+             <div class="cuadroblanco">
+                <h1>SIGN IN</h1>
+                <div class="form-group">
+                  <label for="" class="Etiqueta">Username:</label>
+                  <input type="text"
+                    class="form-control" name="username" id="username" aria-describedby="helpId" 
+                    placeholder="USERNAME">
+                </div>
+                <div class="form-group">
+                  <label for="" class="Etiqueta">Password:</label>
+                  <input type="password"
+                    class="form-control" name="Password" id="Password" aria-describedby="helpId" 
+                    placeholder="PASSWORD">
+                </div>
+                <div class="form-check">
+                  <label class="form-check-label">
+                    <input type="checkbox" class="form-check-input" id="remember" value="checkedValue"
+                    onclick="ObtenerInformación()" checked>
+                    Remember Me
+                  </label>
+                <a href="./../HTML/RecoverPassword.html"> <label for="" id="ForgotPassword">Forgot Password?</label> </a> 
+                </div>
+            <button type="button" name="" id="ingresarusuario" onclick="GuardarUsuario()"
+            class="btn btn-primary mt-2">
+               SIGN IN
+            </button>
+      </div>
+    <!-- Optional JavaScript -->
+    <script src="./../JS/LocalStorage.js"></script>
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>

@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Proyecto Final</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="./../CSS/Style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  </head>
+  <body>
+          <h2 class="mt-5">Everything is personal. Including this blog.</h2>
+          <h1 class="titulo mt-3">Train of Thought</h1>
+          <nav class="navbar navbar-expand-lg navbar-dark bg-dark mt-3">
+            <div class="container-fluid">
+              <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                  <a class="nav-link active ml-5" aria-current="page" href="./../HTML/Index.html">Home</a>
+                  <a class="nav-link active ml-5" aria-current="page" href="./../HTML/About.html">About</a>
+                  <a class="nav-link active ml-5" aria-current="page" href="./../HTML/MyBlog.html">My Blog</a>
+                  <a class="nav-link active ml-5" aria-current="page" href="#contacto">Contact</a>
+                  <div class="iconos">
+                   <a href="./../HTML/InicioSesion.html"><i class="fa fa-user" aria-hidden="true"></i></a>
+                   <a href="https://es-la.facebook.com/" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                   <a href="https://www.instagram.com/" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                   <a href="https://twitter.com/?lang=es" target="_blank" ><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                   <a href="https://www.pinterest.com.mx/" target="_blank" ><i class="fa fa-pinterest" aria-hidden="true"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </nav> 
+         <div class="imagen2">
+                <img src="./../IMG/Libro en la mano.jpg" class="img-fluid ${3|rounded-top,rounded-right,rounded-bottom,rounded-left,rounded-circle,|}" alt="">
+                    <div class="cuadroblanco">
+                        <h3 class="mt-5 ml-5">Back to Fiction: What I´m Reading This Summer</h3>
+                        <p class="parrafo">Create a blog post subtitle that summarizes your post in few short, punchy
+                            sentences and entices your audience to continue reading. Wel....
+                        </p>   
+                    </div>
+        </div>
+        <div class="cuadroemail">
+            <h3 class="Never">Never Miss a New Post</h3>
+            <div class="subscribe">
+              <div class="form-group">
+                <label for="">Enter your email*</label>
+                <input type="email"
+                  class="form-control" name="" id="email" aria-describedby="helpId" 
+                  placeholder="Enter your email" maxlength="35">
+              </div>
+              <button type="button" name="" id="Subscribes" onclick="GuardarEmail()"
+              class="btn btn-dark ml-3 mt-2" btn-lg btn-block">
+                  Subscribe
+              </button>
+            </div>
+        </div>
+
+        
+
+        <h3 class="titulo4">Drop Me a Line, Let Me Know What you Think</h3>
+        <div id="contacto">
+          <div class="row">
+            <div class="col-6">
+              <div class="form-group">
+                <label for="">First Name</label>
+                <input type="text"
+                  class="form-control" name="" id="primernombre" aria-describedby="helpId" 
+                  placeholder="Ingresa tu nombre" maxlength="15">
+              </div>
+            </div>
+            <div class="col-6">
+              <div class="form-group">
+                <label for="">Last Name</label>
+                <input type="text"
+                  class="form-control" name="" id="apellido" aria-describedby="helpId" 
+                  placeholder="Ingresa tu apellido" maxlength="15">
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-12">
+              <div class="form-group">
+                <label for="">Email*</label>
+                <input type="text"
+                  class="form-control" name="" id="email" aria-describedby="helpId" 
+                  placeholder="Ingresa tu correo electronico" maxlength="15">
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-12">
+              <div class="form-group">
+                <label for="">Ingresa tu mensaje</label>
+                <textarea class="form-control" name="" id="mensaje" rows="3"></textarea>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-12">
+              <button type="button" name="" id="Contactos" onclick="GuardarContacto()"
+              class="btn btn-primary" btn-lg btn-block">
+                Submit
+              </button>
+            </div>
+          </div>
+        </div>
+        <footer>
+          <p>
+            <i class="fa fa-copyright" aria-hidden="true"></i> by Laura Rubalcava. Proudly created with HTML 
+          </p>
+        </footer>
+    <!-- Optional JavaScript -->
+    <script src="./../JS/LocalStorage.js"></script>
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>

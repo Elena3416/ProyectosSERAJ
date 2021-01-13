@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Seguros Poliza</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  </head>
+  <body>
+      <div class="container">
+          <div class="jumbotron mt-3">
+              <h1 class="text/center">Seguros Polizas</h1>
+              <div class="form-group">
+                <label for="">Selecciono el tipo de poliza</label>
+                <select class="form-control" name="" id="TipoPoliza">
+                  <option>Seleccionar Poliza</option>
+                  <option value="A">Cobertura Amplia</option>
+                  <option value="B">Cobertura a terceros</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label for="">Ingresa el costo de la poliza</label>
+                <select class="form-control" name="" id="CostoPoliza">
+                  <option>Selecciona el costo de poliza</option>  
+                  <option value="1">$1200</option>
+                  <option value="2">$950</option>
+                </select>
+              </div>
+             <div class="form-group">
+               <label for="">Ingresa los casos del posible cargo</label>
+               <select class="form-control" name="" id="habitos">
+                <option>Selecciona los posibles casos</option>
+                 <option value="1">Habito por beber alcohol</option>
+                 <option value="2">Si utiliza lentes</option>
+                 <option value="3">Si padece una enfermedad</option>
+                 <option value="4">Si la persona tiene mas de 40 años</option>
+                 <option value="5">Si la persona tiene menos de 40 años</option>
+               </select>
+             </div>
+             <button type="button" name="" id="SeleccionPoliza" onclick="CalcularPoliza()"
+             class="btn btn-primary btn-lg btn-block">Calcular Poliza</button>
+             <div class="alert alert-dark mt-2" role="alert" id="Imprimirpoliza"></div>
+          </div>
+      </div>
+    <!-- Optional JavaScript -->
+    <script src="./../JS/SegurosPoliza.js"></script>
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>
